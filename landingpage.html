@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Landing page</title>
+        <link rel="stylesheet" href="landingpage.css">
+        <script src="landingpage.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="title">
+                <p class="quote">#Let's Grow.....</p>
+            </div>
+           
+            <span class="menu" title="menu" onclick="
+            showMenu();">&#9776;</span>
+            
+            <div class="button">
+                <button class="home"><a>Home</a></button>
+                <button class="courses"><a>Courses</a></button>
+                <button class="contact"><a>Contact</a></button>
+                <button class="about"><a>About us</a></button>
+            </div>
+
+            <div class="sidebar" id="bu">
+                <button class="home"><a>Home</a></button>
+                <button class="courses"><a>Courses</a></button>
+                <button class="contact"><a>Contact</a></button>
+                <button class="about"><a>About us</a></button>
+            </div>
+        </header>
+  
+        
+        <main>
+            <div class="box" id="bo">
+                <p class="desc">Career Guidance</u></p>
+                <p class="book">Book your free webinar..!</p>
+               
+                <p class="name1">First name*</p>
+                <input class="name1-bar" type="text" placeholder="enter" id="firstname">
+                <p class="name2">Last name*</p>
+                <input class="name2-bar" type="text" placeholder="enter"
+                id="lastname">
+                <p class="email">Email*</p>
+                <input class="email-bar" type="text" placeholder="(e.g)abc.gmail.com" id="email">
+                <p class="mobileno">Mobile no</p>
+                <input class="mobileno-bar" type="text" placeholder="optional" id="mobileno">
+            </div>
+            
+            <div class="submitbutton">
+                <button class="submit" onclick="getInput();">Submit</button>
+            </div>
+        </main>
+
+    </body>
+</html>

@@ -1,0 +1,54 @@
+.upper{
+    display:grid;
+    grid-template-columns: 310px 100px ;
+    grid-gap:5px;
+    justify-content: center;
+    margin-top:30px;
+}   
+
+.major{
+    display:grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-gap:5px;
+    justify-content: center;
+    margin-top: 5px;;
+}    
+
+input{
+    font-size: 25px;
+}
+    
+button{
+    font-size: 30px;
+    border-radius: 5px;
+    border:solid;
+    background-color:rgb(226, 223, 223);
+}
+
+.addition,.subtract,.multiply,.divide,.equate,.point{
+    border-color: black;
+    color:red;                
+}
+
+
+.title{
+    display:flex;
+    justify-content: center;
+    font-family: arial;
+    font-size:50px;
+    margin-top: 100px;
+}
+
+body{
+    background: linear-gradient(to right,grey,rgb(76, 74, 74));
+}
+
+button:hover{
+    border-color: rgb(34, 187, 34);
+}
+
+button:active{
+    background-color:rgb(34, 187, 34);
+}
+

@@ -1,0 +1,162 @@
+
+body{
+    padding-top:80px;
+    background-image: url("lpimg.jpg");
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    height:100px;  
+    margin-top:10px;   
+    margin-left:10px;
+    margin-right:10px; 
+    top:0;
+    left:0;
+    right:0;
+    position:fixed;  
+    flex-shrink:0;                   
+}
+
+.title{
+    flex:1;
+    margin-bottom:0px;
+    margin-left:60px;
+    margin-top:20px;
+}
+    
+
+.button{
+    margin-right:30px;
+    margin-top:30px;
+    display:inline-block;
+}
+
+.home,.courses,.about,.contact{
+    font-size:20px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border:none;
+    background-color:white;
+    border-radius: 10px;
+    margin-right:5px;
+}
+
+.quote{
+    font-size:50px;
+    color:white;
+    margin-top:5px;
+    padding-bottom: 100px;
+    width:400px;
+    margin-right:-40px;
+}
+
+.box{
+    text-align: center;
+    margin-top:0px; 
+    flex-shrink:0;          
+}
+
+.book{
+    font-size: 40px;
+    font-weight: bold;
+    color:white;
+    margin-bottom:5px;
+}
+
+.desc{
+    font-size: 50px;
+    color:black;
+    margin-top:30px;
+    margin-bottom:30px;
+    border:solid;
+    background-color:white;
+    border-color:white;
+}
+
+.email,.name1,.name2,.mobileno{
+    font-size: 25px ;
+    color:red;
+    margin-bottom:5px;
+}
+
+.email-bar,.mobileno-bar,.name1-bar,.name2-bar{
+    width:250px;
+    height:25px;
+    padding-left: 10px;
+    font-size: 16px;
+    color:rgb(0,0,0);
+    border-width: 1px;
+    border-style: solid;
+}
+
+::placeholder{
+    color:rgb(190, 190, 190);
+}
+
+.submit{
+    color:white;
+    font-weight:bold;
+    background-color:royalblue;
+    width:120px;
+    margin-top:30px;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size:20px;
+    border-radius:10px;
+    border:none;
+}
+
+.submitbutton{
+    text-align: center;
+}
+    
+.submit:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.home,.courses,.contact,.about{
+    cursor: pointer;
+}
+
+.courses{
+    background-color:gray;
+    color:white;
+}
+
+.menu{
+    color:white;
+    font-size: 40px;
+    cursor: pointer;
+    position:absolute;
+    right:30px;
+    top:25px;
+    z-index:1;
+    display:none;
+}
+
+@media(max-width:979px)
+{
+    .menu{
+        display:inline-block;
+        
+    }
+    .button{
+        display:none;
+    }
+}
+
+.sidebar{
+    position:absolute;
+    right:0px;
+    top:80px;
+    background-color: white;
+    max-width:130px;
+    display:none;
+}
+
